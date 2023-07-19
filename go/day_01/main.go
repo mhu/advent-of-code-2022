@@ -9,9 +9,9 @@ import (
 )
 
 func main() {
-    input, err := os.ReadFile("../input.txt")
+	input, err := os.ReadFile("../../input.txt")
 
-    if err != nil {
+	if err != nil {
 		panic(err)
 	}
 
